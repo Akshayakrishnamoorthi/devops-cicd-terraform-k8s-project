@@ -1,1 +1,11 @@
+stages:
+  - build
+  - deploy
 
+build:
+  script:
+    - echo "Building app"
+
+deploy:
+  script:
+    - echo "Deploying app"
